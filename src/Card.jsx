@@ -7,7 +7,7 @@ function Card(props){
     <img src={props.imgsrc} target="_blank" alt="mypic"/>
     <h1 className="headings">{props.name}</h1>
     <h2 className="headings">"{props.title}"</h2>
-    <a href={props.link} target="_blank"><button>Watch Now</button></a>
+    <a href={props.link} target="_blank" rel="noopener noreferrer"><button>Watch Now</button></a>
     </div>
     </>
   ); 
